@@ -21,6 +21,10 @@ h1 {
 	margin-bottom: -15px;
 }
 
+span.value {
+	display: none;
+}
+
 .start-game {
 	margin-top: 15px;
 }
