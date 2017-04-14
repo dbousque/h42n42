@@ -1,0 +1,163 @@
+
+
+* {
+	user-select: none;
+	font-family: "Monaco", "NanumGothic", cursive;
+}
+
+body {
+	background-color: #faf8ef;
+	color: #333;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+h1 {
+	text-align: center;
+	margin-top: 34px;
+	margin-bottom: -15px;
+}
+
+span.value {
+	display: none;
+}
+
+.start-game {
+	margin-top: 15px;
+}
+
+.all-input-parent {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 100px;
+}
+
+.input-parent {
+	width: 270px;
+	margin: 0 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rangeparent {
+	width: 100%;
+}
+
+.centertext {
+	text-align: center;
+}
+
+.description {
+	margin-top: 40px;
+}
+
+.you-lost-animation {
+	-webkit-transition: all 1s;
+	-webkit-filter: blur(4.5px) brightness(80%) grayscale(100%);
+	transition: all 1s;
+	filter: blur(4.5px) brightness(80%) grayscale(100%);
+}
+
+.you-lost-container {
+	position: absolute;
+	width: 400px;
+	height: 175px;
+    background-color: #f7f7f7;
+    z-index: 2;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 11px 11px 20px 0px #333;
+    display: none;
+}
+
+.appear {
+	animation: fadein 1s;
+}
+
+.you-lost-container-child {
+	margin-top: 57px;
+	font-size: 42px;
+}
+
+.bestiole {
+	position: absolute;
+	z-index: 1;
+	-webkit-filter: drop-shadow(2px 2px 2px #222);
+	filter: drop-shadow(2px 2px 2px #222);
+}
+
+.dragged {
+	-webkit-filter: drop-shadow(7px 7px 7px #222);
+	filter: drop-shadow(7px 7px 7px #222);
+	transform: scale(1.15)!important;
+}
+
+.board-container {
+	margin: 0 auto;
+}
+
+.bestiole-container {
+	background-color: #EEE;
+	float: left;
+	box-shadow: inset 0px 0px 8px 0px #222;
+}
+
+.hide-border {
+	position: relative;
+	background-color: #faf8ef;
+	z-index: 2;
+}
+
+.left-right-border {
+	width: 20px;
+	float: left;
+}
+
+.top-bottom-border {
+	width: 100%;
+	height: 20px;
+}
+
+.extreme {
+	width: 100%;
+	box-shadow: inset 0px 0px 8px 0px #111;
+}
+
+.hospital {
+	background-color: #FDFDFD;
+}
+
+.river {
+	background-color: #FDFDFD;
+}
+
+.wave {
+	width: 100%;
+	filter: blur(0.5px);
+	opacity: 0.8;
+	height: 22px;
+}
+
+.wave1 {
+	margin-top: 3px;
+}
+
+.wave2 {
+	margin-top: -6px;
+}
+
+.center-vertical {
+	vertical-align: middle;
+	height: 100%;
+}
+
+.center-horizontal {
+	text-align: center;
+}
+
+.hospital-image {
+	margin: 0 11%;
+}
